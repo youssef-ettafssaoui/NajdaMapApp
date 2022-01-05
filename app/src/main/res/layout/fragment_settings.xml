@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="2"
-    tools:context=".SettingsFragment">
+    tools:context=".Fragment.SettingsFragment">
 
     <com.github.florent37.shapeofview.shapes.ArcView
         android:layout_width="match_parent"

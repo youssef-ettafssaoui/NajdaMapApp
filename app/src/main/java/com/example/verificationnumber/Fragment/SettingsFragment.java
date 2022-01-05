@@ -1,4 +1,4 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Fragment;
 
 import android.Manifest;
 import android.app.Activity;
@@ -40,7 +40,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
-import  com.example.verificationnumber.SettingsFragmentDirections;
 
 import java.util.HashMap;
 import java.util.Map;

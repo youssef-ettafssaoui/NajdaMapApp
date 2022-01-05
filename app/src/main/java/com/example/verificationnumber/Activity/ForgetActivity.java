@@ -1,10 +1,8 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import com.example.verificationnumber.R;
 import com.example.verificationnumber.databinding.ActivityForgetBinding;
 
 public class ForgetActivity extends AppCompatActivity {

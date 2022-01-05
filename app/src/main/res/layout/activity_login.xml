@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
-    tools:context=".LoginActivity">
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.LoginActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.6"
-        android:scaleType="centerCrop" />
+        android:alpha="1.0"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_background" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,8 +30,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Najda App"
-                android:textColor="@color/colorWhite"
+                android:text="Near Me"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="40dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -47,16 +48,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
-                android:backgroundTint="@color/colorWhite"
+                android:backgroundTint="@color/colorPrimaryDark"
                 android:fontFamily="@font/playfair_display"
                 android:drawableStart="@drawable/ic_email"
                 android:drawablePadding="10dp"
-                android:drawableTint="@color/colorWhite"
+                android:drawableTint="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
                 android:hint="Email"
-                android:textColorHint="@color/colorWhite"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
-                android:textColor="@color/colorWhite" />
+                android:textColor="@color/colorPrimaryDark" />
 
             <EditText
                 android:id="@+id/edtPassword"
@@ -64,15 +65,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/colorWhite"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
                 android:drawableStart="@drawable/ic_lock"
                 android:drawablePadding="10dp"
-                android:textColorHint="@color/colorWhite"
-                android:drawableTint="@color/colorWhite"
+                android:drawableTint="@color/colorPrimaryDark"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:textColor="@color/colorWhite" />
+                android:textColor="@color/colorPrimaryDark" />
 
             <TextView
                 android:id="@+id/txtForgetPassword"
@@ -81,7 +82,7 @@
                 android:layout_marginHorizontal="30dp"
                 android:gravity="end"
                 android:text="Forget password?"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="20dp" />
 
 
@@ -92,9 +93,10 @@
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent"
                 android:padding="15dp"
                 android:text="Login"
-                android:textColor="@color/colorAccent"
                 android:textStyle="bold"
                 app:cornerRadius="20dp"
                 app:elevation="10dp"
@@ -108,17 +110,57 @@
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginTop="10dp"
                 android:padding="15dp"
-                android:backgroundTint="@color/colorPrimaryDark"
-                app:strokeColor="@color/colorPrimaryDark"
                 android:text="Signup"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"
                 app:cornerRadius="20dp"
                 app:elevation="10dp" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:text="OR"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
 
+
+            <ImageView
+                android:id="@+id/btnGoogle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/ic_google" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

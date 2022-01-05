@@ -106,5 +106,7 @@ dependencies {
     // Circular Indicator library
     implementation 'com.victor:lib:1.0.4'
 
+    implementation 'com.airbnb.android:lottie:4.0.0'
+
 
 }

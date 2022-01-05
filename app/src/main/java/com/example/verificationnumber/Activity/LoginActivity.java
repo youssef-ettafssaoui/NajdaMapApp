@@ -1,4 +1,4 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.verificationnumber.R;
 import com.example.verificationnumber.LoadingDialog;
 import com.example.verificationnumber.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;

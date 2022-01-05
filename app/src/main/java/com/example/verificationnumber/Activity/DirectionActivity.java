@@ -1,4 +1,4 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +13,6 @@ import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
@@ -23,7 +22,6 @@ import com.example.verificationnumber.Model.DirectionPlaceModel.DirectionLegMode
 import com.example.verificationnumber.Model.DirectionPlaceModel.DirectionResponseModel;
 import com.example.verificationnumber.Model.DirectionPlaceModel.DirectionRouteModel;
 import com.example.verificationnumber.Model.DirectionPlaceModel.DirectionStepModel;
-import com.example.verificationnumber.Model.GooglePlaceModel.GoogleResponseModel;
 import com.example.verificationnumber.Permissions.AppPermissions;
 import com.example.verificationnumber.R;
 import com.example.verificationnumber.LoadingDialog;

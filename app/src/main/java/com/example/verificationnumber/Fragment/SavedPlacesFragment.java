@@ -1,4 +1,4 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,11 +18,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.verificationnumber.DirectionActivity;
+import com.example.verificationnumber.Activity.DirectionActivity;
+import com.example.verificationnumber.LoadingDialog;
 import com.example.verificationnumber.R;
 import com.example.verificationnumber.SavedLocationInterface;
 import com.example.verificationnumber.SavedPlaceModel;
-import com.example.verificationnumber.LoadingDialog;
 import com.example.verificationnumber.databinding.FragmentSavedPlacesBinding;
 import com.example.verificationnumber.databinding.SavedItemLayoutBinding;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;

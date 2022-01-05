@@ -1,4 +1,4 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Fragment;
 
 import android.os.Bundle;
 

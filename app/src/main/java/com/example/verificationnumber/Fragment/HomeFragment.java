@@ -1,4 +1,4 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Fragment;
 
 
 import android.Manifest;
@@ -30,18 +30,18 @@ import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SnapHelper;
 
-import com.example.verificationnumber.DirectionActivity;
+import com.example.verificationnumber.Activity.DirectionActivity;
 import com.example.verificationnumber.Adapter.GooglePlaceAdapter;
 import com.example.verificationnumber.Adapter.InfoWindowAdapter;
 import com.example.verificationnumber.Constant.AllConstant;
 import com.example.verificationnumber.GooglePlaceModel;
+import com.example.verificationnumber.LoadingDialog;
 import com.example.verificationnumber.Model.GooglePlaceModel.GoogleResponseModel;
 import com.example.verificationnumber.NajdaLocationInterface;
 import com.example.verificationnumber.Permissions.AppPermissions;
 import com.example.verificationnumber.PlaceModel;
 import com.example.verificationnumber.R;
 import com.example.verificationnumber.SavedPlaceModel;
-import com.example.verificationnumber.LoadingDialog;
 import com.example.verificationnumber.WebServices.RetrofitAPI;
 import com.example.verificationnumber.WebServices.RetrofitClient;
 import com.example.verificationnumber.databinding.FragmentHomeBinding;

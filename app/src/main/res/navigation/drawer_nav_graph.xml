@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/btnHome"
-        android:name="com.example.verificationnumber.HomeFragment"
+        android:name="com.example.verificationnumber.Fragment.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/btnSetting"
-        android:name="com.example.verificationnumber.SettingsFragment"
+        android:name="com.example.verificationnumber.Fragment.SettingsFragment"
         android:label="Saved Places"
         tools:layout="@layout/fragment_settings">
         <action
@@ -21,12 +21,12 @@
     </fragment>
     <fragment
         android:id="@+id/btnSavedPlaces"
-        android:name="com.example.verificationnumber.SavedPlacesFragment"
+        android:name="com.example.verificationnumber.Fragment.SavedPlacesFragment"
         android:label="fragment_saved_places"
         tools:layout="@layout/fragment_saved_places" />
     <fragment
         android:id="@+id/emailConfirmationFragment"
-        android:name="com.example.verificationnumber.EmailConfirmationFragment"
+        android:name="com.example.verificationnumber.Fragment.EmailConfirmationFragment"
         android:label="fragment_email_confirmation"
         tools:layout="@layout/fragment_email_confirmation">
 
@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/emailChangeFragment"
-        android:name="com.example.verificationnumber.EmailChangeFragment"
+        android:name="com.example.verificationnumber.Fragment.EmailChangeFragment"
         android:label="fragment_email_change"
         tools:layout="@layout/fragment_email_change" />
     <fragment

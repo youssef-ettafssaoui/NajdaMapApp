@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/bottom_sheet_behavior"
-    tools:context=".DirectionActivity">
+    tools:context=".Activity.DirectionActivity">
 
     <fragment
         android:id="@+id/directionMap"
