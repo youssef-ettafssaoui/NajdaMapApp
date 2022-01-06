@@ -24,7 +24,7 @@ import com.example.verificationnumber.Model.DirectionPlaceModel.DirectionRouteMo
 import com.example.verificationnumber.Model.DirectionPlaceModel.DirectionStepModel;
 import com.example.verificationnumber.Permissions.AppPermissions;
 import com.example.verificationnumber.R;
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.WebServices.RetrofitAPI;
 import com.example.verificationnumber.WebServices.RetrofitClient;
 import com.example.verificationnumber.databinding.ActivityDirectionBinding;

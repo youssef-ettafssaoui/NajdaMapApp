@@ -13,8 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.verificationnumber.R;
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.databinding.FragmentPasswordChangeBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

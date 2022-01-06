@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.verificationnumber.Constant.AllConstant;
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.Permissions.AppPermissions;
 import com.example.verificationnumber.UserModel;
 import com.example.verificationnumber.databinding.ActivitySignUpBinding;

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VerificationNumber</string>
+    <string name="app_name">Najda App</string>
     <string name="najda_code_verification">Najda Code Verification</string>
     <string name="code_text">We will send You a Code on this Mobile Number</string>
     <string name="code_verification_number">Enter Your Phone Number</string>

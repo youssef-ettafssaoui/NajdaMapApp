@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

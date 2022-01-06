@@ -19,7 +19,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.verificationnumber.Activity.DirectionActivity;
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.R;
 import com.example.verificationnumber.SavedLocationInterface;
 import com.example.verificationnumber.SavedPlaceModel;

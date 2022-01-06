@@ -1,9 +1,10 @@
-package com.example.verificationnumber;
+package com.example.verificationnumber.Utility;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.view.LayoutInflater;
 
+import com.example.verificationnumber.R;
 import com.example.verificationnumber.databinding.DialogLayoutBinding;
 
 

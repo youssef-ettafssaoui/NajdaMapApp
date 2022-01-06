@@ -25,7 +25,7 @@ import com.bumptech.glide.Glide;
 import com.example.verificationnumber.Constant.AllConstant;
 import com.example.verificationnumber.Permissions.AppPermissions;
 import com.example.verificationnumber.R;
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.databinding.FragmentSettingsBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;

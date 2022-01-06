@@ -35,7 +35,7 @@ import com.example.verificationnumber.Adapter.GooglePlaceAdapter;
 import com.example.verificationnumber.Adapter.InfoWindowAdapter;
 import com.example.verificationnumber.Constant.AllConstant;
 import com.example.verificationnumber.GooglePlaceModel;
-import com.example.verificationnumber.LoadingDialog;
+import com.example.verificationnumber.Utility.LoadingDialog;
 import com.example.verificationnumber.Model.GooglePlaceModel.GoogleResponseModel;
 import com.example.verificationnumber.NajdaLocationInterface;
 import com.example.verificationnumber.Permissions.AppPermissions;
@@ -168,7 +168,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback,
 
         binding.currentLocation.setOnClickListener(currentLocation -> getCurrentLocation());
 
-
         binding.placesGroup.setOnCheckedChangeListener(new ChipGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(ChipGroup group, int checkedId) {
@@ -201,7 +200,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback,
             chip.setId(placeModel.getId());
             chip.setPadding(8, 8, 8, 8);
             chip.setTextColor(getResources().getColor(R.color.colorWhite, null));
-            chip.setChipBackgroundColor(getResources().getColorStateList(R.color.colorAccent, null));
+            chip.setChipBackgroundColor(getResources().getColorStateList(R.color.colorPrimaryDark, null));
             chip.setChipIcon(ResourcesCompat.getDrawable(getResources(), placeModel.getDrawableId(), null));
             chip.setCheckable(true);
             chip.setCheckedIconVisible(false);
@@ -218,8 +217,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mGoogleMap = googleMap;
-
-
         if (appPermissions.isLocationOk(requireContext())) {
             isLocationPermissionOk = true;
 
@@ -246,19 +243,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback,
                 , Manifest.permission.ACCESS_BACKGROUND_LOCATION}, AllConstant.LOCATION_REQUEST_CODE);
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == AllConstant.LOCATION_REQUEST_CODE) {
-            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                isLocationPermissionOk = true;
-                setUpGoogleMap();
-            } else {
-                isLocationPermissionOk = false;
-                Toast.makeText(requireContext(), "Location permission denied", Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
+ 
 
     private void setUpGoogleMap() {
         if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
