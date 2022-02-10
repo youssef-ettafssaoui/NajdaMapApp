@@ -1,79 +1,41 @@
 {
   "project_info": {
-    "project_number": "728457836432",
-    "firebase_url": "https://najdamap-default-rtdb.firebaseio.com",
-    "project_id": "najdamap",
-    "storage_bucket": "najdamap.appspot.com"
+    "project_number": "958273818396",
+    "project_id": "gps-najda-app",
+    "storage_bucket": "gps-najda-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:728457836432:android:5e93bf2c085ede8316e515",
+        "mobilesdk_app_id": "1:958273818396:android:c73880f60240cee47634d9",
         "android_client_info": {
-          "package_name": "com.example.najdamap"
+          "package_name": "com.example.gpsnajdaapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "728457836432-hf3t49u5e4tiu1f3e100br3qfld3dfe1.apps.googleusercontent.com",
+          "client_id": "958273818396-jhuqh3js6s93ngoqrqodo7j4ll35ej4m.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.najdamap",
+            "package_name": "com.example.gpsnajdaapp",
             "certificate_hash": "f9bceaafdd035166b009de7af2691609837c8e2d"
           }
         },
         {
-          "client_id": "728457836432-mn14an2mbb7v5htbftfta11985r0ds3h.apps.googleusercontent.com",
+          "client_id": "958273818396-vg36eg9ehgp5h8b8o93542e8h9i2gc1m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyANBxxdvCS6AZNpJj1jLI8126g5PqoJFBw"
+          "current_key": "AIzaSyCETrZUsf__Dt78BMvJENGaHvw4Yes8hNQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "728457836432-mn14an2mbb7v5htbftfta11985r0ds3h.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:728457836432:android:8e5db12a3ce91f7016e515",
-        "android_client_info": {
-          "package_name": "com.example.verificationnumber"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "728457836432-b06610nekt16jtt883o3uvcmmeec7gus.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.verificationnumber",
-            "certificate_hash": "f9bceaafdd035166b009de7af2691609837c8e2d"
-          }
-        },
-        {
-          "client_id": "728457836432-mn14an2mbb7v5htbftfta11985r0ds3h.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyANBxxdvCS6AZNpJj1jLI8126g5PqoJFBw"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "728457836432-mn14an2mbb7v5htbftfta11985r0ds3h.apps.googleusercontent.com",
+              "client_id": "958273818396-vg36eg9ehgp5h8b8o93542e8h9i2gc1m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
