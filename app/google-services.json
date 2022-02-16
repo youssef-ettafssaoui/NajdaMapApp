@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "958273818396",
-    "project_id": "gps-najda-app",
-    "storage_bucket": "gps-najda-app.appspot.com"
+    "project_number": "1042435083932",
+    "project_id": "najdamap-3b559",
+    "storage_bucket": "najdamap-3b559.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:958273818396:android:c73880f60240cee47634d9",
+        "mobilesdk_app_id": "1:1042435083932:android:d116361082984323ffa759",
         "android_client_info": {
-          "package_name": "com.example.gpsnajdaapp"
+          "package_name": "com.example.verificationnumber"
         }
       },
       "oauth_client": [
         {
-          "client_id": "958273818396-jhuqh3js6s93ngoqrqodo7j4ll35ej4m.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.gpsnajdaapp",
-            "certificate_hash": "f9bceaafdd035166b009de7af2691609837c8e2d"
-          }
-        },
-        {
-          "client_id": "958273818396-vg36eg9ehgp5h8b8o93542e8h9i2gc1m.apps.googleusercontent.com",
+          "client_id": "1042435083932-na66a6o0e4n40lfjm1sub7p7aqeadmj7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCETrZUsf__Dt78BMvJENGaHvw4Yes8hNQ"
+          "current_key": "AIzaSyD-cK3ki-6O4GisS0oIXtHELCJRwvCspw8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "958273818396-vg36eg9ehgp5h8b8o93542e8h9i2gc1m.apps.googleusercontent.com",
+              "client_id": "1042435083932-na66a6o0e4n40lfjm1sub7p7aqeadmj7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

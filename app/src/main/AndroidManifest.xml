@@ -16,9 +16,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VerificationNumber">
-        <activity
-            android:name=".Activity.InviteCodeActivity"
-            android:exported="false" />
         <activity android:name=".Activity.ForgetActivity" />
         <activity
             android:name=".Activity.DirectionActivity"

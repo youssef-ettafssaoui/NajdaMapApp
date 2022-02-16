@@ -17,6 +17,6 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/header_layout"
         app:itemIconTint="@color/colorAccent"
-        app:itemTextColor="@color/colorPrimaryDark"
+        app:itemTextColor="@color/colorAccent"
         app:menu="@menu/nav_menu" />
 </androidx.drawerlayout.widget.DrawerLayout>
